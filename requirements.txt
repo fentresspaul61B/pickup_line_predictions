@@ -1,3 +1,4 @@
+bokeh==2.4.1
 matplotlib==3.5.0
 numpy==1.18.1
 pandas==0.24.2
@@ -5,4 +6,5 @@ Pillow==8.4.0
 scikit_learn==1.0.2
 seaborn==0.10.0
 streamlit==1.2.0
+streamlit_bokeh_events==0.1.2
 textblob==0.15.3
