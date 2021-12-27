@@ -85,6 +85,7 @@ if input_option == "Audio":
                 document.dispatchEvent(new CustomEvent("GET_TEXT", {detail: value}));
             }
         }
+        recognition.continuous = false,
         recognition.start();
         """))
 
