@@ -19,6 +19,10 @@ Link to web app: https://share.streamlit.io/fentresspaul61b/pickup_line_predicti
 
 Link to write up: https://www.notion.so/Sidemen-Tinder-Pickup-Line-Prediction-Using-K-Nearest-Neighbors-b9286425b5bc4f5796aae23dd00a2158
 
+# Question.
+
+Can I predict whether or not a pickup line is successful based on text alone? The answer is kind of. I was able to with 70% accuracy, however, this is on a small dataset, and pickup lines are much more complex than just the content of what is being said. However, this is a descent accuracy so now I will explain how I got there.
+
 # **Data Collection/ Cleaning.**
 
 ## About the Data.
