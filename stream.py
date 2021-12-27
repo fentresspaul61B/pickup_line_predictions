@@ -8,12 +8,15 @@ import seaborn as sns
 
 load_time = 0.001
 
-st.set_page_config(page_title="Pauls Pick-Up Line ML", page_icon = '🤖')
+st.set_page_config(page_title="Pickup Line Prediction Using K-Nearest Neighbors", page_icon = "💛")
+
+
 st.write("""
-# Pauls Pickup Line Machine Learning Project
+# Pickup Line Prediction Using K-Nearest Neighbors
 Icons made by Freepik from www.flaticon.com
 
 """)
+
 
 
 input_option = st.selectbox("How would you like to deliver your pickup line?",
