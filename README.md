@@ -1,5 +1,11 @@
 # Sidemen Tinder: Pickup Line Prediction Using K-Nearest Neighbors 
 
+- Data Cleaning can be found in the "data.py" file. 
+
+- Modeling can be found in the "model.py" file. 
+
+- Deployment can be found in the "stream.py" file 
+
 ## Introduction/Overview. 
 
 In this Machine Learning Project, I collected over 500 pickup lines from a Youtube dating show called “Sidemen Tinder”, 
