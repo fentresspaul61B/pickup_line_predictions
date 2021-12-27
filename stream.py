@@ -71,7 +71,7 @@ if input_option == "Audio":
 
     stt_button.js_on_event("button_click", CustomJS(code="""
         var recognition = new webkitSpeechRecognition();
-        recognition.continuous = true;
+        recognition.continuous = false;
         recognition.interimResults = true;
 
         recognition.onresult = function (e) {
@@ -85,7 +85,7 @@ if input_option == "Audio":
                 document.dispatchEvent(new CustomEvent("GET_TEXT", {detail: value}));
             }
         }
-        recognition.continuous = false,
+
         recognition.start();
         """))
 
