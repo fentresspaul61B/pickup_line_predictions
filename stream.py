@@ -13,7 +13,6 @@ st.write("""
 # Pauls Pickup Line Machine Learning Project
 Icons made by Freepik from www.flaticon.com
 
-## Type your pickup line into the box below.
 """)
 
 
