@@ -2,8 +2,18 @@
 
 ## Introduction/Overview. 
 
-In this Machine Learning Project, I collected over 500 pickup lines from a youtube dating show called “Sidemen Tinder”, 
+In this Machine Learning Project, I collected over 500 pickup lines from a Youtube dating show called “Sidemen Tinder”, 
 and built a K-Nearest Neighbors classification model to predict whether a pickup line was a success or failure.
+
+I achieved 70% accuracy on the test set, and deployed a web app which you can enter pickup lines by speech or text, 
+and see if it was a success or failure.
+
+
+### Model in Production: 
+![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/77761564/147445221-d9976ea3-5871-43cb-b841-702d47d080a3.gif)
+
+
+
 
 Link to web app: https://share.streamlit.io/fentresspaul61b/pickup_line_predictions/stream.py
 
@@ -56,7 +66,7 @@ For data, I watched and collected pick up lines from 3 Youtube videos, including
     - **Line (str):** The actual pickup line.
     
     
-    | Name | Right | Left | Line_Type | Age | Line |
+| Name | Right | Left | Line_Type | Age | Line |
 | --- | --- | --- | --- | --- | --- |
 | JJ | 0 | 1 | Flex | 25 | “Hi, I'm 25, JJ, and I'm rich” |
 
